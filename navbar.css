@@ -1,0 +1,33 @@
+:root {
+
+
+.navbar {
+    width: 4.5rem;
+    height: 100vh;
+    position:absolute;
+    border-bottom:  1rem #30342b;
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 1.4rem;
+    display:flex;
+    flex-direction: column;
+}
+.nav-item:hover {
+    transform: translateY(-10px);
+
+}
+.nav-item:last-child {
+    margin-top: auto;
+}
+.nav-item {
+transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+}
